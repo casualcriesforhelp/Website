@@ -34,7 +34,8 @@ html {
     height: 3000px
 }
 
-.text-center {
+.text-center, 
+.text-left {
     font-size: 1rem;
     padding: 1rem;
     color: white;
@@ -48,4 +49,8 @@ html {
     font-style:italic;
     font-size: 1.5rem;
     font-family: 'Times New Roman', serif;
+}
+
+.noBullet {
+    list-style-type: none;
 }
