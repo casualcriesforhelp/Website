@@ -51,6 +51,15 @@ html {
     font-family: 'Times New Roman', serif;
 }
 
+.huge {
+    font-size: 2rem;
+    font-weight: bold;
+    em {
+        font-family: 'Comic Sans MS', 'Comic Sans', 'Cursive';
+        font-weight: bolder;
+    }
+}
+
 .noBullet {
     list-style-type: none;
 }
