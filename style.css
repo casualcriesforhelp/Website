@@ -11,19 +11,35 @@
 }
 
 .navbar {
-    font-size: 2.4rem !important;
+    font-size: 2.0rem !important;
     font-weight: bold;
     font-style: white;
-    font-family: serif;
+    font-family: "Just Another Hand";
+}
+.navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.navbar-toggler .li{
+    color: red;
 }
 
 body {
-    display: block;
-    font-family: 'Times New Roman', serif;
+font: serif;
+}
+
+.parallax {
+    background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");
+        /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");
-    background-attachment: fixed;
 }
 
 html {
