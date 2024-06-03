@@ -5,6 +5,10 @@
     color: white;
 }
 
+p {
+    padding-top: 1rem;
+}
+
 .contact {
     color:white;
     padding-top: 1em;
@@ -14,7 +18,7 @@
     font-size: 2.0rem !important;
     font-weight: bold;
     font-style: white;
-    font-family: "Just Another Hand";
+    font-family: "Just Another Hand", cursive;
 }
 .navbar li {
     padding-left: 0.5rem;
@@ -23,12 +27,17 @@
     margin: auto;
 }
 
-.navbar-toggler .li{
-    color: red;
+nav {
+    background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
-font: serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .parallax {
@@ -46,15 +55,18 @@ html {
     height: 100%
 }
 
-.high { 
-    height: 3000px
+.display-1 { 
+    font-family: "Just Another Hand", cursive;
+    letter-spacing: 1rem;
+}
+.display-4 { 
+    font-family: "Just Another Hand", cursive;
 }
 
 .text-center, 
 .text-left {
     font-size: 1.25rem;
     padding: 1rem;
-    color: white;
 }
 
 .whiteShadow { 
@@ -62,20 +74,26 @@ html {
 }
 
 .fancy {
-    font-style:italic;
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', serif;
-}
-
-.huge {
-    font-size: 2rem;
-    font-weight: bold;
-    em {
-        font-family: 'Comic Sans MS', 'Comic Sans', 'Cursive';
-        font-weight: bolder;
-    }
+    font-size: 2.0rem;
+    font-family: 'Just Another Hand', cursive;
 }
 
 .noBullet {
     list-style-type: none;
+}
+
+.container-md {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.spotifyplayer {
+    padding-bottom: 2rem;
+}
+
+.btn-primary { 
+    background-color: rgb(192, 50, 92);
+    border: none;
+}
+.btn-primary:hover {
+    background-color: rgb(88, 24, 43);
 }
