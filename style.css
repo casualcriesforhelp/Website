@@ -17,8 +17,8 @@
     font-family: "Just Another Hand";
 }
 .navbar li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     width: 50%;
     margin: auto;
 }
