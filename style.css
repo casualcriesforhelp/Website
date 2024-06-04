@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Mistral;
+    src: url(fonts/MISTRAL.TTF);
+}
+
 .fa {
     color: white;
 }
@@ -15,10 +20,10 @@ p {
 }
 
 .navbar {
-    font-size: 2.0rem !important;
+    font-size: 1.5rem !important;
     font-weight: bold;
     font-style: white;
-    font-family: "Just Another Hand", cursive;
+    font-family: "Permanent Marker";
 }
 .navbar li {
     padding-left: 0.5rem;
@@ -28,7 +33,7 @@ p {
 }
 
 nav {
-    background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");    /* Create the parallax scrolling effect */
+    background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,15 +41,13 @@ nav {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Serif 4', serif;
     color: white;
 }
 
 .parallax {
     background-image: url("https://drive.google.com/thumbnail?id=1F0iO_9Ej8n_b9nQQ5-HtBt2pEr-e0n_5&sz=w2000");
-        /* Set a specific height */
     min-height: 500px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,12 +58,13 @@ html {
     height: 100%
 }
 
-.display-1 { 
-    font-family: "Just Another Hand", cursive;
-    letter-spacing: 1rem;
-}
 .display-4 { 
-    font-family: "Just Another Hand", cursive;
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 1rem;
+    font-weight: bold;
+}
+.display-6 { 
+    font-family: "Permanent Marker", cursive;
 }
 
 .text-center, 
@@ -74,8 +78,8 @@ html {
 }
 
 .fancy {
-    font-size: 2.0rem;
-    font-family: 'Just Another Hand', cursive;
+    font-size: 1.5rem;
+    font-family: 'Courgette', cursive;
 }
 
 .noBullet {
