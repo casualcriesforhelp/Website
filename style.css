@@ -81,6 +81,10 @@ html {
     font-size: 1.5rem;
     font-family: 'Courgette', cursive;
 }
+.scribble{
+    font-size: 1.25rem;
+    font-family: 'Permanent Marker';
+}
 
 .noBullet {
     list-style-type: none;
@@ -100,4 +104,22 @@ html {
 }
 .btn-primary:hover {
     background-color: rgb(88, 24, 43);
+}
+
+.carousel-inner {
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.carousel-item {
+    height:1100px;
+    width:100%
+}
+
+.caroImg {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto !important;
 }
