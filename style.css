@@ -150,3 +150,11 @@ html {
 .bio {
     padding: 4rem;
 }
+
+.streaming {
+    padding-top: 2rem;
+}
+
+.buyButton { 
+    padding-top: 2rem;
+}
