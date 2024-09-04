@@ -158,3 +158,11 @@ html {
 .buyButton { 
     padding-top: 2rem;
 }
+
+.largeText {
+    font-size: 1.5rem;
+}
+
+.medText {
+    font-size: 1.2rem;
+}
