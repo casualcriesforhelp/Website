@@ -19,6 +19,11 @@ const carousel1 = new bootstrap.Carousel(myCarouselElement1, {
   touch: false
 });
 
+const carouselP = new bootstrap.Carousel(myCarouselElementP, {
+  interval: 2000,
+  touch: false
+});
+const myCarouselElementP = document.querySelector('#carouselP');
 
 
 

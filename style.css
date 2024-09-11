@@ -113,6 +113,10 @@ html {
     width:100%
 }
 
+.carousel-item.perf {
+    height:600px;
+    width:100%
+}
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: flex;
